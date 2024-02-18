@@ -1,9 +1,8 @@
 # Import VMware PowerCLI module
+Install-Module VMware.PowerCLI
 Import-Module VMware.PowerCLI
 
-# Connect to the VMware vCenter Server
-$vcServer = Read-Host "Enter vCenter Server"
-Connect-VIServer $vcServer
+& "$PSScriptRoot/VMware_Connect.ps1"
 
 # Prompt the user for the virtual machine name
 $vmName = Read-Host "Enter the virtual machine name"

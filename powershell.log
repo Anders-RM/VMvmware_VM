@@ -1,0 +1,71 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240218112623
+Username: Anders-PCW\Anders
+RunAs User: Anders-PCW\Anders
+Configuration Name: 
+Machine: ANDERS-PCW (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 18280
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Anders\GIT\VMvmware_VM\powershell.log
+**********************
+Command start time: 20240218113253
+**********************
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+**********************
+Command start time: 20240218113321
+**********************
+PS C:\Users\Anders\GIT\VMvmware_VM> .\VMware_Connect.ps1
+Transcript started, output file is C:\Users\Anders\GIT\VMvmware_VM\powershell.log
+**********************
+Command start time: 20240218113353
+**********************
+PS C:\Users\Anders\GIT\VMvmware_VM> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+**********************
+Command start time: 20240218113355
+**********************
+PS C:\Users\Anders\GIT\VMvmware_VM> Install-Module VMware.PowerCLI -Scope CurrentUser -Confirm:$false
+**********************
+Command start time: 20240218113412
+**********************
+PS C:\Users\Anders\GIT\VMvmware_VM> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+**********************
+Command start time: 20240218113414
+**********************
+PS C:\Users\Anders\GIT\VMvmware_VM> .\VMware_Connect.ps1
+Transcript started, output file is C:\Users\Anders\GIT\VMvmware_VM\powershell.log
+          Welcome to VMware PowerCLI!
+
+Log in to a vCenter Server or ESX host:
+Connect-VIServer
+To find out what commands are available, type:
+Get-VICommand
+To show searchable help for all PowerCLI commands:
+Get-PowerCLIHelp
+Once you've connected, display all virtual machines:
+Get-VM
+If you need more help, visit the PowerCLI community:
+Get-PowerCLICommunity
+
+       Copyright (C) VMware, Inc. All rights reserved.
+
+
+Cancel
+Transcript stopped, output file is C:\Users\Anders\GIT\VMvmware_VM\powershell.log
